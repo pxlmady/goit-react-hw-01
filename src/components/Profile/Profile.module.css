@@ -1,0 +1,62 @@
+.container {
+    width: 405px;
+    height: 100%;
+    border: 3px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.userAvatar {
+    margin-top: 15px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background-color: #2a2a2a;
+}
+
+.userName {
+    color: #000;
+    margin: auto 15px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.userFont {
+    margin: 0;
+    font-size: 25px;
+    font-weight: normal;
+    color: #808080;
+}
+
+.statsList {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    margin-top: 16px;
+    background-color: #d3d3d3;
+    border-top: 2px solid #808080;
+}
+
+.statsListItem {
+    display: grid;
+    width: 135px;
+    padding: 16px 8px;
+    border-right: 2px solid #808080;
+}
+
+.statsListItem:last-of-type {
+    border: none;
+}
+
+.listTitle {
+    font-size: 25px;
+    font-weight: normal;
+    color: black;
+}
+
+.listAmount {
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+}
